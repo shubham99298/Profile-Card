@@ -30,13 +30,13 @@ const Foreground = () => {
       desc: "Linkedin",
       
       close: true,
-      link:"https://www.linkedin.com/in/shubham-kumar-sharma-5244a6274/",
+      link:"https://www.linkedin.com/in/shubham-kumar-sharma-a19388216/",
       tag: { isOpen: true, tagTitle: "Visit Linkedin", tagColor:"blue" },
     },
   ];
 
   return (
-    <div ref={ref} className="fixed top-0 left-0 z-[3] w-full h-full flex gap-5 flex-wrap p-5">
+    <div ref={ref} className="fixed top-0 left-0 z-[3] w-full h-full flex gap-5 flex-wrap p-5 ">
       {data.map((item,index)=> (
          <Card key={index} data={item} reference={ref}/>
       ))}
